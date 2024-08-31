@@ -19,8 +19,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning={true}>
       <body className={inter.className}>
         <VideoBackground />
+        {/* Black overlay with 50% opacity */}
+        <div className="absolute top-0 left-0 w-full min-h-screen bg-white opacity-90 z-10 overflow-y-hidden"></div>
         <div className="relative min-h-screen">
-          <div className="relative z-10 bg-opacity-10">{children}</div>
+          <div className="relative z-20">{children}</div>
         </div>
       </body>
     </html>
