@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # website:
 
-[./public/website.png]
+![HomePage](./public/website.png)
